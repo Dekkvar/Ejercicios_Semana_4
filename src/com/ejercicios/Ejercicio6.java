@@ -4,10 +4,8 @@ import java.util.Scanner;
 public class Ejercicio6 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String str = "";
-        System.out.println("Introduce una número:");
-        str = input.nextLine();
-        int num = Integer.parseInt(str);
+        System.out.println("Introduce un número:");
+        int num = Integer.parseInt(input.nextLine());
 
         int par = num % 2;
 
